@@ -1,3 +1,4 @@
+# Bad Code
 salesAmt = 1100
 if salesAmt >= 1000 :
     commissionRate = .08
@@ -14,3 +15,12 @@ print(commissionRate)
 # Bottom Line: Pay attention to the order that if statements are in if 
 # structured like this example
 # should use elif as well to fix this
+
+#Fixed Code
+salesAmt = 1100
+if salesAmt >= 1000 :
+    commissionRate = .08
+elif salesAmt >= 500 :
+    commissionRate = .06
+else :
+    commissionRate = .05
