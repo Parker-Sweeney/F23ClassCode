@@ -13,3 +13,4 @@ print(commissionRate)
 # and changes the commissionRate to .06
 # Bottom Line: Pay attention to the order that if statements are in if 
 # structured like this example
+# should use elif as well to fix this
